@@ -1,0 +1,48 @@
+{
+  "name": "osx-quit",
+  "description": "Close all Applications, or a single application from the terminal on OSX 10.10.  Built using Javascript for automation",
+  "version": "0.1.0",
+  "homepage": "https://github.com/shidel-dev/osx-quit",
+  "author": {
+    "name": "shidel.dev",
+    "email": "joeshidel@gmail.com"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shidel-dev/osx-quit.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/shidel-dev/osx-quit/issues"
+  },
+
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shidel-dev/osx-quit/blob/master/LICENSE-MIT"
+    }
+  ],
+
+  "main": "lib/quit.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+
+  "preferGlobal": "true",
+
+  "bin": {
+    "quit" : "lib/quit.js"
+  },
+
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt": "~0.4.5"
+  },
+
+  "keywords": ["osx", "close", "windows", "automation"],
+
+  "dependencies": {
+    "commander": "~2.4.0"
+  }
+}
