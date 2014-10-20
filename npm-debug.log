@@ -1,0 +1,51 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'link' ]
+2 info using npm@2.1.4
+3 info using node@v0.10.22
+4 verbose node symlink /usr/local/bin/node
+5 verbose linkPkg /Users/joe/Desktop/close-all
+6 verbose gentlyRm vacuuming /usr/local/lib/node_modules/osx-quit
+7 silly gentlyRm purging /usr/local/lib/node_modules/osx-quit
+8 silly gentlyRm quitting because other entries in /usr/local/lib/node_modules
+9 verbose gentlyRm vacuuming /usr/local/lib/node_modules/osx-quit
+10 verbose link build target /usr/local/lib/node_modules/osx-quit
+11 verbose install where, what [ '/Users/joe/Desktop/close-all', [] ]
+12 verbose install where, deps [ '/Users/joe/Desktop/close-all',
+12 verbose install   [ 'commander', 'grunt-contrib-jshint', 'grunt' ] ]
+13 info preinstall osx-quit@0.1.0
+14 verbose already installed skipping grunt@~0.4.5 /Users/joe/Desktop/close-all
+15 verbose already installed skipping commander@~2.4.0 /Users/joe/Desktop/close-all
+16 verbose already installed skipping grunt-contrib-jshint@~0.6.4 /Users/joe/Desktop/close-all
+17 silly install resolved []
+18 info build /Users/joe/Desktop/close-all
+19 verbose linkStuff [ false, false, false, '/Users/joe/Desktop' ]
+20 info linkStuff osx-quit@0.1.0
+21 verbose linkBins osx-quit@0.1.0
+22 verbose linkMans osx-quit@0.1.0
+23 verbose rebuildBundles osx-quit@0.1.0
+24 verbose rebuildBundles [ 'commander', 'grunt', 'grunt-contrib-jshint' ]
+25 info install osx-quit@0.1.0
+26 info postinstall osx-quit@0.1.0
+27 info prepublish osx-quit@0.1.0
+28 info build /usr/local/lib/node_modules/osx-quit
+29 verbose linkStuff [ true,
+29 verbose linkStuff   '/usr/local/lib/node_modules',
+29 verbose linkStuff   true,
+29 verbose linkStuff   '/usr/local/lib/node_modules' ]
+30 info linkStuff osx-quit@0.1.0
+31 verbose linkBins osx-quit@0.1.0
+32 verbose link bins [ { quit: 'lib/quit.js' }, '/usr/local/bin', true ]
+33 verbose linkMans osx-quit@0.1.0
+34 verbose stack Error: ENOENT, chmod '/usr/local/lib/node_modules/osx-quit/lib/quit.js'
+35 verbose cwd /Users/joe/Desktop/close-all
+36 error Darwin 14.0.0
+37 error argv "node" "/usr/local/bin/npm" "link"
+38 error node v0.10.22
+39 error npm  v2.1.4
+40 error path /usr/local/lib/node_modules/osx-quit/lib/quit.js
+41 error code ENOENT
+42 error errno 34
+43 error ENOENT, chmod '/usr/local/lib/node_modules/osx-quit/lib/quit.js'
+44 error If you need help, you may report this error at:
+44 error     <http://github.com/npm/npm/issues>
+45 verbose exit [ 34, true ]
