@@ -1,4 +1,4 @@
-# osx-quit
+# stir
 
 Close all Applications, or a single application from the terminal on OSX 10.10.  Built using Javascript for automation
 
