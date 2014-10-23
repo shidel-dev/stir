@@ -1,7 +1,7 @@
 {
   "name": "stir",
   "description": "Open switch, or, close applications from the terminal on OSX 10.10.  Built using Javascript for automation",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/shidel-dev/stir",
   "author": {
     "name": "shidel.dev",
