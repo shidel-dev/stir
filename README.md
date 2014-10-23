@@ -7,10 +7,10 @@ Close all Applications, or a single application from the terminal on OSX 10.10. 
 ```npm install stir -g ```
 
 ##Use
-**open an application**
-```stir activity monitor```
-**close an application**
-```stir activity monitor -q ```
+**open an application**   
+```stir activity monitor```   
+**close an application**   
+```stir activity monitor -q ```   
 
 ## License
 Copyright (c) 2014 shidel-dev
